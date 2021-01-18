@@ -40,7 +40,6 @@ function App() {
         </Route>
       </Switch>
     </BrowserRouter>
-    // <div><AdminLogin></AdminLogin></div>
 
   );
 }

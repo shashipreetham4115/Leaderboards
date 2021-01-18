@@ -2,7 +2,7 @@ import { Redirect } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import { auth, db } from '../DB/firebase';
 import Loader from 'react-loader-spinner';
-import ProgressBar from '../ProgressBar/ProgressBar';
+import ProgressBar from './ProgressBar';
 import { store } from "react-notifications-component";
 import 'react-notifications-component/dist/theme.css'
 import "animate.css";
